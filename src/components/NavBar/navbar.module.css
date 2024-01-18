@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+  height: fit-content;
+  align-items: stretch;
+}
+
+.left,
+.right {
+  display: flex;
+}
+
+.left span,
+.right div {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.coincap img {
+  width: 5.5rem;
+  cursor: pointer;
+  padding: 0.65rem;
+}
+
+.coincap:hover,
+.left span:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}

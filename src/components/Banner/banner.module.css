@@ -1,0 +1,23 @@
+.container {
+  background: linear-gradient(to right, #3f51b5, #64b5f6);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 0 4rem;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 1rem 0 8rem 0;
+  font-weight: 500;
+}
+
+.heading {
+  font-size: 0.875rem;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  font-weight: 400;
+}

@@ -1,0 +1,35 @@
+.landing {
+  background-color: #eceff1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.banner {
+  width: 100%;
+}
+
+.table {
+  width: 90%;
+  top: -7rem;
+  position: relative;
+  z-index: 1;
+}
+
+.loadBtn {
+  background-color: #18c683;
+  cursor: pointer;
+  padding: 0.45rem 1.25rem;
+  color: white;
+  border-radius: 2rem;
+  font-weight: 600;
+  box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.4);
+  position: relative;
+  top: -3.5rem;
+  transition: transform 0.2s ease;
+}
+
+.loadBtn:hover {
+  transform: translateY(-2px);
+}
